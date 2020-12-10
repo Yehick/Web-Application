@@ -45,7 +45,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 
-
 // FUNCION DE CONVERTIR DATOS A XML
 
 Route::get(
@@ -102,13 +101,6 @@ Route::get('/entrancesXLSX', 'EntranceController@exportToXLSX');
 Route::get('/filmesXLSX', 'FilmeController@exportToXLSX');
 Route::get('/moviesXLSX', 'MovieController@exportToXLSX');
 Route::get('/roomsXLSX', 'RoomController@exportToXLSX');
-
-//FUNCION DE EXPORTAR A XML
-
-
-
-
-
 
 //FUNCION DE EXPORTAR A CSV
 Route::get('/consumablsCSV', 'ConsumablController@exportToCSV');
